@@ -40,8 +40,6 @@ with open("people.csv", "r") as file:
         sheet['A'+str(j)]=name
         sheet['B'+str(j)]=total
         j=j+1
-        print(name)
-        print(total)
         total=0
 wb.save("salary.xlsx")
  
